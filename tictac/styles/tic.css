@@ -1,0 +1,106 @@
+html{
+    height: 100%;
+  }
+  body{
+    background: linear-gradient(30deg, #006e28, #00ff40, #004713, #00eb1f);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    color: #00ff00;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 10mm;
+    box-shadow: 0 4px 50px #000;
+    border: 4px solid #004400;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+    
+    .game{
+      margin-top: 30mm;
+      width: 150mm;
+      height: 150mm;
+      font-size: 35mm;
+      font-family: 'Courier New', Courier, monospace;
+      color: #fff;
+      box-shadow: 0 0 200px #0000004d;
+  }
+  
+  .href {
+    border: 3px solid #004400;
+    display: flex;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    bottom: 2mm;
+    right: 5mm;
+    transform: none;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+  }
+  
+  .question {
+    transform: none;
+    display: flex;
+    border: 3px solid #004400;
+    font-family: 'Courier New', Courier, monospace;
+    position: fixed;
+    bottom: 2mm;
+    left: 5mm;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+  }
+  
+  .queston-text {
+    transform: none;
+    padding: 10px;
+    font-size: 30px;
+    color: #00ff00;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .vk {
+    margin: 10px;
+  }
+  
+  .tg{
+    margin: 10px;
+  }
+  
+  .game div{
+    float: left;
+    width: 50mm;
+    height: 50mm;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #004400;
+    color: #fff;
+    border: 1px solid #00eb1f;
+  }
+  
+  .game >div:hover {
+    background-color: #004400;  
+    color: #5e5e5e;
+  }
+
+  .game >div:active {   
+    background-color: #00ff00;
+    color: #5e5e5e;     
+  }
